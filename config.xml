@@ -30,5 +30,12 @@
 	<feature name="http://api.phonegap.com/1.0/network" />
 	<feature name="http://api.phonegap.com/1.0/camera" />
 	<feature name="http://api.phonegap.com/1.0/file" />
+	
+	<gap:plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+	<gap:plugin name="File" value="org.apache.cordova.FileUtils" />
+	<gap:plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+	<gap:plugin name="Storage" value="org.apache.cordova.Storage" />
+	<gap:plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+
 
 </widget>
